@@ -41,7 +41,7 @@ setup(name='talon',
           'install': InstallCommand,
       },
       packages=find_packages(exclude=['tests', 'tests.*']),
-      data_files=[('signature', ['data/classifier', 'data/classifier_01.npy', 'data/classifier_02.npy', 'data/classifier_03.npy', 'data/classifier_04.npy', 'data/classifier_05.npy', 'data/train.data'])],
+      package_data={'talon': ['signature/data/*.*']},
       include_package_data=True,
       zip_safe=True,
       install_requires=[
