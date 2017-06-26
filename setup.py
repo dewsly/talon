@@ -1,5 +1,5 @@
-import codecs
 from __future__ import absolute_import
+import codecs
 from setuptools import setup, find_packages
 from setuptools.command.install import install
 
