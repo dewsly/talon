@@ -41,7 +41,7 @@ setup(name='talon',
           'install': InstallCommand,
       },
       packages=find_packages(exclude=['tests', 'tests.*']),
-      package_data={'talon': ['signature/data/*.*']},
+      package_data={'talon': ['signature/data/*']},
       include_package_data=True,
       zip_safe=True,
       install_requires=[
