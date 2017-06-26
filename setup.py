@@ -1,5 +1,4 @@
 from __future__ import absolute_import
-import codecs
 from setuptools import setup, find_packages
 from setuptools.command.install import install
 
@@ -33,7 +32,7 @@ setup(name='talon',
       version='1.4.1.1',
       description=("Mailgun library "
                    "to extract message quotations and signatures."),
-      long_description=codecs.open("README.rst").read(),
+      long_description="README.rst",
       author='Mailgun Inc.',
       author_email='admin@mailgunhq.com',
       url='https://github.com/mailgun/talon',
